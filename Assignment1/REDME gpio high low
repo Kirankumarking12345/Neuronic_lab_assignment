@@ -1,0 +1,10 @@
+Project Name	: GPIO pin high, low using serial monitor
+Board used	: STM32F446RE
+IDE		: STM32 System Workbench Eclipse 4.6.3
+
+Description :
+
+	Accessing GPIO Pin(PA10) from the serial monitor. To display the access I connect a LED to the PA10 pin. The board reads the input from the serial monitor through UART, If the input is HIGH then the PA10 pin becomes 1, and the LED glows. If the input is LOW then the PA10 pin becomes 0, and the LED turn off It doesn't respond to other inputs other than HIGH or LOW.
+
+
+*****************************		END 		**************************
