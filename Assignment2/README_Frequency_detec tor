@@ -1,0 +1,12 @@
+Project Name	: 30MHz square signal frequency  detector
+Board used	: STM32F446RE
+IDE		: STM32 System Workbench Eclipse 4.6.3
+
+Description :
+
+		The board uses its GPIO Pin(PA0) to take the input of the square signal which we want to detect frequency. Whenever the measured frequency is 30MHz. It will transmit the message of detection, the frequency of input square signal and its pulse counts on the Serial monitor through UART protocol and also it will count and print the number of pulses within 10 seconds duration. The program execution will be terminated after 10 seconds.
+
+		Due to the lack of an external signal oscillator, here I have used LSE Oscillator which outputs from PA8 pin and it will become the input to the PA0 pin. 
+
+
+*****************************		END 		**************************
